@@ -172,3 +172,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Python cache and venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Ignore your real Spotify credentials
+.env
+.cache
+
+# VSCode config (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
